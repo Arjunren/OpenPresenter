@@ -125,14 +125,14 @@ function App() {
       {!presentation && !isPresenting && (
         <footer className="px-6 py-6 border-t border-slate-200 bg-white text-center flex flex-col items-center justify-center gap-3 shrink-0">
           <p className="text-slate-600 text-sm font-medium">
-            OpenPresenter — Open Source Project by <span className="font-semibold text-slate-800">Arjun Renvon</span>
+            OpenPresenter — Open Source Project by <span className="font-semibold text-slate-800">Arjunrenvon</span>
           </p>
           <a
             href="https://github.com/Arjunren"
             target="_blank"
             rel="noopener noreferrer"
             className="text-slate-400 hover:text-slate-800 transition-colors flex items-center gap-2"
-            aria-label="Arjun Renvon on GitHub"
+            aria-label="Arjunrenvon on GitHub"
             onMouseEnter={() => setIsHovered(true)}
             onMouseLeave={() => setIsHovered(false)}
           >
